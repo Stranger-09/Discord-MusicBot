@@ -1,12 +1,12 @@
 module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
-	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
+	adminId: "@kumar.09", //- Replace UserId with the Clubdeck ID of the admin of the bot
 	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "", //- ID of the bot
+	clientId: process.env.clientId || "@rolex201", //- ID of the bot
 	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
-	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
+	scopes: ["identify", "guilds", "applications.commands"], //- Clubdeck OAuth2 Scopes
 	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
 	serverDeafen: true, //- If you want bot to stay deafened
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -26,7 +26,7 @@ module.exports = {
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "", //- The host name or IP of the lavalink server.
+			host: "Anil", //- The host name or IP of the lavalink server.
 			port: 80, // The port that lavalink is listening to. This must be a number!
 			password: "", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
